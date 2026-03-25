@@ -58,3 +58,12 @@ console.log(multiply(2)(3));
 const checkAge = age => age >= 18 ? "Adult" : "Young";
 
 console.log(checkAge(20));
+
+// Arrow Function oo lagu dhex isticmaalay setTimeout
+console.log("Shaqadu hadda waxay bilaabanaysaa...");
+
+setTimeout(() => {
+  console.log("Hambalyo! 3 ilbiriqsi ka dib ayaa la i soo daabacay.");
+}, 3000);
+
+console.log("Anigu ma sugayo, horey ayaan u soconayaa!");
