@@ -25,7 +25,10 @@ const numberss = [1, 2, 3, 4, 5];
 
 const even = numbers.filter(n => n % 2 === 0);
 
-console.log(even);
+const odd = numbers.filter(n => n % 2 === 1);
+
+console.log(odd);
+console.log()
 
 // Arrow Function + forEach(
 const names = ["Ali", "Ahmed", "Fatima"];
