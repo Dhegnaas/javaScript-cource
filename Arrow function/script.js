@@ -67,3 +67,17 @@ setTimeout(() => {
 }, 3000);
 
 console.log("Anigu ma sugayo, horey ayaan u soconayaa!");
+
+//
+const hubi_lambarka = (n) => {
+  if (n > 0) {
+    return "Lambarku waa togan (Positive)";
+  } else if (n < 0) {
+    return "Lambarku waa taban (Negative)";
+  } else {
+    return "Lambarku waa Eber (Zero)";
+  }
+};
+
+console.log(hubi_lambarka(10));
+console.log(hubi_lambarka(0));
